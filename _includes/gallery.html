@@ -1,0 +1,19 @@
+<div class="image-gallery row">
+  {% for picture in include.gallery.pictures | sort: 'date' %}
+  {% if include.category == 'all' or picture.categories contains include.category %}
+  <div class="col-sm-6">
+    <div class="card">
+      <img class="card-img-top" src="{{ site.url }}{{ site.baseurl }}/assets/paintings/{{ picture.filename }}" alt="{{picture.title}}">
+      <div class="card-body">
+        <h5 class="card-title">{{picture.title}}</h5>
+        <h6 class="card-subtitle mb-2 text-muted">{{picture.date | date_to_string}}</h6>
+        <p class="card-text">{{picture.description}}</p>
+        {% for category in picture.categories %}
+          <span class="badge badge-secondary">{{category}}</span>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+  {% endif %}
+  {% endfor %}
+</div>
