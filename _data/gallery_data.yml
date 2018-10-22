@@ -1,0 +1,34 @@
+pictures:
+- filename: poison.jpg
+  title: Poison
+  date: 2018-10-01
+  description: A naga style woman
+  categories:
+  - ink
+  - inktober2018
+- filename: roasting.jpg
+  title: Pumpkin Sauna
+  date: 2018-10-07
+  description: Just your friendly neighbourhood witch, taking a pumpkin bath
+  categories:
+  - ink
+  - inktober2018
+- filename: coyfish.jpg
+  title: Coyfish
+  date: 2018-10-07
+  description: A tranquil pond
+  categories:
+  - ink
+  - inktober2018
+- filename: portrait.jpg
+  title: Green Eyes
+  date: 2018-10-08
+  description: Such gorgeous eyes on the model for this one
+  categories:
+  - ink
+- filename: gulls.png
+  title: Seagull Silhouettes
+  date: 2018-10-01
+  description: Loved the way you could still see the sunlight through their wings
+  categories:
+  - digital

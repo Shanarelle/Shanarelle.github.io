@@ -1,3 +1,23 @@
-theme: jekyll-theme-slate
+#theme: jekyll-theme-slate
 title: Shanarelle's paintings
 description: An organised record of all my paintings and drawings
+
+# collections:
+#   ink:
+#     output: true
+
+defaults:
+  # - scope:
+  #     path: ""
+  #     type: "ink"
+  #   values:
+  #     layout: "painting"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
