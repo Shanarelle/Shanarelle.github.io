@@ -7,11 +7,6 @@ description: An organised record of all my paintings and drawings
 #     output: true
 
 defaults:
-  # - scope:
-  #     path: ""
-  #     type: "ink"
-  #   values:
-  #     layout: "painting"
   - scope:
       path: ""
       type: "posts"
