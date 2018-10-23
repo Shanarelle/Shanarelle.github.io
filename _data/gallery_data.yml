@@ -32,3 +32,111 @@ pictures:
   description: Loved the way you could still see the sunlight through their wings
   categories:
   - digital
+- filename: Benalmadena_Coastline.png
+  title: Benalmadena and the Sea
+  date: 2018-08-01
+  # description: 
+  categories:
+  - digital
+  - landscape
+  - landmarks
+- filename: Fire_kitty.png
+  title: Flame Kitty
+  date: 2018-05-01
+  description: Do you think he's noticed his tail's on fire?
+  categories:
+  - digital
+  - animals
+- filename: Foxxy.png
+  title: Into the distance
+  date: 2018-06-01
+  description: Just a fox in some deep thoughts
+  categories:
+  - digital
+  - animals
+- filename: Grasslands.png
+  title: Grasslands
+  date: 2018-06-30
+  description: An attempt to be a wee bit quicker
+  categories:
+  - digital
+  - landscape
+  - need4speed
+- filename: Grasslands2.png
+  title: Grasslands 2
+  date: 2018-06-30
+  description: An alternate type of grassland
+  categories:
+  - digital
+  - landscape
+  - need4speed
+- filename: Hello.png
+  title: Hello!
+  date: 2018-02-01
+  description: A playful dolphin
+  categories:
+  - digital
+  - animals
+- filename: HorseshoeFalls-Tassie.png
+  title: Horseshoe Falls - Tasmania
+  date: 2018-07-12
+  description: Such a pretty waterfall
+  categories:
+  - digital
+- filename: Swamp.png
+  title: Swamp Trees
+  date: 2018-07-02
+  # description: 
+  categories:
+  - digital
+  - need4speed
+- filename: Pingwins.png
+  title: Pingwins
+  date: 2018-07-08
+  # description: 
+  categories:
+  - digital
+  - need4speed
+- filename: Need_4_Speed.png
+  title: Need 4 Speed
+  date: 2018-06-28
+  # description: 
+  categories:
+  - digital
+  - need4speed
+- filename: Just_a_Quickie.png
+  title: Just a Quickie
+  date: 2018-05-01
+  description: A gesture drawing that got out of hand. Title from an offhand comment
+  categories:
+  - digital
+  - portraits
+- filename: Sleepy_Puss.png
+  title: Comfy Couch Sploot
+  date: 2018-07-10
+  # description: 
+  categories:
+  - digital
+  - animals
+  - need4speed
+- filename: Elephant_Blimp_-TK.png
+  title: Elephant Blimp Study
+  date: 2018-01-01
+  description: A masterstudy from the delightful Otherworlds by Tom Kidd
+  categories:
+  - digital
+  - study
+- filename: WarOfTheWorlds-TK.png
+  title: War of the Worlds Study
+  date: 2018-01-01
+  description: A masterstudy from the delightful Otherworlds by Tom Kidd
+  categories:
+  - digital
+  - study
+- filename: Stream-TK.png
+  title: Stream Study
+  date: 2018-01-01
+  description: A masterstudy from the delightful Otherworlds by Tom Kidd
+  categories:
+  - digital
+  - study

@@ -1,0 +1,21 @@
+---
+layout: default
+title: Shanarelle - Sketch
+---
+<h1>Sketch Style Paintings</h1>
+
+<div class="image-gallery row">
+  {% for image in site.static_files %}
+    {% if image.path contains 'paintings/sketch' %}
+	  <div class="col-sm-6">
+	    <div class="card">
+	      <img class="card-img-top" src="{{ site.baseurl }}{{ image.path }}" alt="{{image.basename}}">
+	      <!-- <div class="card-body">
+	        <h5 class="card-title">{{image.basename}}</h5>
+	        <h6 class="card-subtitle mb-2 text-muted">{{image.modified_time | date: "%Y %m"}}</h6>
+	      </div> -->
+	    </div>
+	  </div>
+	  {% endif %}
+  {% endfor %}
+</div>
