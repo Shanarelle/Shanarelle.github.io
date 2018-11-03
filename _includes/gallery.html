@@ -1,10 +1,14 @@
 <div class="image-gallery row">
   {% assign sorted_pictures = (include.gallery.pictures | sort: 'date') | reverse %}
+  {% assign modal_id = '' %}
   {% for picture in sorted_pictures | sort: 'date' %}
   {% if include.category == 'all' or picture.categories contains include.category %}
+  {% assign modal_id = modal_id | append: 'a' %}
   <div class="col-sm-6">
     <div class="card">
-      <img class="card-img-top" src="{{ site.url }}{{ site.baseurl }}/assets/paintings/{{ picture.filename }}" alt="{{picture.title}}">
+      <a href="#" data-toggle="modal" data-target="#{{modal_id}}">
+        <img class="card-img-top" src="{{ site.url }}{{ site.baseurl }}/assets/paintings/thumbnails/{{ picture.filename }}" alt="{{picture.title}}">
+      </a>
       <div class="card-body">
         <h5 class="card-title">{{picture.title}}</h5>
         <h6 class="card-subtitle mb-2 text-muted">{{picture.date | date: "%b %Y"}}</h6>
@@ -12,6 +16,23 @@
         {% for category in picture.categories %}
           <span class="badge badge-secondary">{{category}}</span>
         {% endfor %}
+      </div>
+    </div>
+  </div>
+  <!-- Modal -->
+  <div class="modal fade" id="{{modal_id}}" tabindex="-1" role="dialog" aria-labelledby="modalTitle" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalTitle">{{picture.title}}</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <img class="card-img-top" src="{{ site.url }}{{ site.baseurl }}/assets/paintings/{{ picture.filename }}" alt="{{picture.title}}">
+          <p class="card-text">{{picture.description}}</p>
+        </div>
       </div>
     </div>
   </div>
