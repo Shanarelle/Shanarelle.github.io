@@ -140,3 +140,113 @@ pictures:
   categories:
   - digital
   - study
+- filename: dusk.png
+  title: Dusk in the City
+  date: 2019-04-01
+  description: Pretty pink sky
+  categories:
+  - digital
+  - city
+- filename: Fire_-_Feb_2019.png
+  title: Forest Fire
+  date: 2019-02-10
+  description: Sometimes the fire burns too bright
+  categories:
+  - digital
+  - landscape
+- filename: fire_escape.png
+  title: Glesga westend
+  date: 2019-01-01
+  description: The fire escape on that building was just so prominent
+  categories:
+  - digital
+  - study
+  - city
+- filename: forest.png
+  title: Moss and golden Light
+  date: 2019-01-01
+  categories:
+  - digital
+  - landscape
+- filename: Jester_Headshot.png
+  title: Leetle blue tiefling
+  date: 2018-11-01
+  description: fanart of Jester from Critical Role
+  categories:
+  - digital
+  - portraits
+- filename: Kitty_Cats.png
+  title: Kitty
+  date: 2019-01-05
+  categories:
+  - digital
+  - animals
+- filename: Lizzard-_2219.png
+  title: Frilled about it
+  date: 2019-02-02
+  description: D'you think he's angry about the bad pun title?
+  categories:
+  - digital
+  - animals
+- filename: Meiko_Kaji_18219.png
+  title: Meiko Kaji
+  date: 2019-02-18
+  categories:
+  - digital
+  - study
+  - greyscale
+- filename: Slobber_-_4319.png
+  title: Fwends
+  date: 2019-03-04
+  description: Such a licky puppy
+  categories:
+  - digital
+  - story
+- filename: play_with_me.png
+  title: Beach Volleywait
+  date: 2019-03-20
+  description: Trying out drawing figures in perspective. There's always someone who doesn't want to play
+  categories:
+  - digital
+  - study
+- filename: stretch.png
+  title: Stretchh
+  date: 2019-02-01
+  categories:
+  - digital
+  - study
+  - greyscale
+- filename: whale_feeding.png
+  title: It's Krill Time
+  date: 2019-02-15
+  description: A pod(?) of humpbacks feasting on krill
+  categories:
+  - digital
+  - animals
+  - story
+- filename: Marina.png
+  title: Marina
+  date: 2018-07-15
+  description: Marina from Splatoon 2
+  categories:
+  - digital
+  - portraits
+- filename: Marina-WatercolourEffect.png
+  title: Marina 2
+  date: 2018-07-16
+  description: Marina from Splatoon 2 - in sorta watercolour
+  categories:
+  - digital
+  - portraits
+- filename: MelvilleCastle-13818.png
+  title: BBQ Party
+  date: 2018-08-13
+  categories:
+  - digital
+  - landscape
+- filename: The_Grotto_-_Bruce_Peninsula_Park.png
+  title: The Grotto
+  date: 2018-09-15
+  categories:
+  - digital
+  - landscape
