@@ -3,7 +3,7 @@ import os, sys
 from PIL import Image
 
 # make it third of original size
-REDUCTION = 6
+REDUCTION = 3
 
 path = sys.argv[1]
 for infile in os.listdir(path):
